@@ -7,7 +7,7 @@ int guess_numbers(int *nums, int range, int length)
   char correct[length];
   int i, j;
 
-  printf("%i Zahlen (0 - %i):\n", length, range - 1);
+  printf("%i numbers to guess (0 - %i):\n", length, range - 1);
 
   // guessing
   for(i = 0; i < length; i++)
@@ -65,6 +65,12 @@ int guess_numbers(int *nums, int range, int length)
 
 int main()
 {
+  puts("C O D E - C R A C K E R");
+  puts("");
+  puts("There is a Code of 4 numbers. You should find it out.");
+  puts("-- have fun and follow (@addisaden)");
+  puts("");
+
   int numbers[4] = {-1, -1, -1, -1};
 
   fill_with_numbers(numbers, 10, 4);
